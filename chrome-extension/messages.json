@@ -1,0 +1,47 @@
+{
+  "extensionName": {
+    "message": "Recruitment SaaS Extension",
+    "description": "Name of the extension."
+  },
+  "extensionDescription": {
+    "message": "Streamline your recruitment process with AI-powered tools.",
+    "description": "Description of the extension."
+  },
+  "loginButton": {
+    "message": "Login",
+    "description": "Login button text."
+  },
+  "emailPlaceholder": {
+    "message": "Email",
+    "description": "Email input placeholder."
+  },
+  "passwordPlaceholder": {
+    "message": "Password",
+    "description": "Password input placeholder."
+  },
+  "extractCandidate": {
+    "message": "Extract Candidate",
+    "description": "Button to extract candidate data."
+  },
+  "candidateExtracted": {
+    "message": "Candidate data extracted and saved!",
+    "description": "Success message after extraction."
+  },
+  "extractionFailed": {
+    "message": "Failed to extract candidate data.",
+    "description": "Error message if extraction fails."
+  },
+  "loginRequired": {
+    "message": "Please login to use the extension.",
+    "description": "Message when login is required."
+  },
+  "loginSuccess": {
+    "message": "Login successful!",
+    "description": "Success message after login."
+  },
+  "loginFailed": {
+    "message": "Login failed. Please check your credentials.",
+    "description": "Error message if login fails."
+  }
+}
+

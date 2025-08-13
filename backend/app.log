@@ -1,0 +1,5 @@
+nohup: ignoring input
+  File "/home/ubuntu/recruitment-saas-backend/src/main.py", line 19
+    app = Flask(__name__, static_folder=os.path.join(os.path.dirname(__file__), \'static\'))
+                                                                                 ^
+SyntaxError: unexpected character after line continuation character

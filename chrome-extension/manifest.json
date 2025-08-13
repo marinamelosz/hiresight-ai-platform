@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "HireSight.ai - Recruitment Assistant",
+  "version": "1.0.0",
+  "description": "Assistente inteligente de recrutamento para extrair e analisar perfis de candidatos",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://www.linkedin.com/*",
+    "https://linkedin.com/*",
+    "http://localhost:5000/*",
+    "https://*.github.io/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.linkedin.com/*",
+        "https://linkedin.com/*"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_title": "HireSight.ai"
+  }
+}
+
